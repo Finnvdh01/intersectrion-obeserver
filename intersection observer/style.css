@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+
+section {
+  min-height: 100vh;
+  padding-top: 60px; 
+  padding-left: 20px;
+  background-color: lightgray;
+  opacity: 0;
+  transition: opacity 1s, background-color 1s;
+}
+
+
+section.visible {
+  opacity: 1;
+  background-color: lightgreen;
+}
